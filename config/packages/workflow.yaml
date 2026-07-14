@@ -8,7 +8,7 @@ framework:
                 type: 'method'
                 property: 'status'
             supports:
-                - App\Model\ContentItem
+                - Morfeditorial\MachinimaCoreBundle\Model\ContentItem
             places:
                 - draft
                 - review

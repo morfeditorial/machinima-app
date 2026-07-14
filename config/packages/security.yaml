@@ -7,7 +7,7 @@ security:
     providers:
         app_user_provider:
             entity:
-                class: App\Entity\User
+                class: Morfeditorial\MachinimaCoreBundle\Entity\User
                 property: id
 
     role_hierarchy:

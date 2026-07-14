@@ -1454,17 +1454,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-telegram-adapter.git",
-                "reference": "6b857eb89f68db2c867c00740e91470a6e5e3415"
+                "reference": "723006ff5ef9702bd8e3eaf8452e5ae06a273539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/6b857eb89f68db2c867c00740e91470a6e5e3415",
-                "reference": "6b857eb89f68db2c867c00740e91470a6e5e3415",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/723006ff5ef9702bd8e3eaf8452e5ae06a273539",
+                "reference": "723006ff5ef9702bd8e3eaf8452e5ae06a273539",
                 "shasum": ""
             },
             "require": {
                 "lcobucci/jwt": "^4.0",
-                "morfeditorial/machinima-app": "dev-main",
+                "morfeditorial/machinima-core": "dev-main",
                 "morfeditorial/telegram-bot-bundle": "dev-main",
                 "php": ">=8.4",
                 "symfony/framework-bundle": "8.1.*",
@@ -1494,7 +1494,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/tree/main"
             },
-            "time": "2026-07-14T14:33:08+00:00"
+            "time": "2026-07-14T20:38:05+00:00"
         },
         {
             "name": "morfeditorial/telegram-bot-bundle",

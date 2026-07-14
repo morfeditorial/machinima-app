@@ -4,85 +4,22 @@
 # Files in the packages/ subdirectory configure your dependencies.
 # See also https://symfony.com/doc/current/service_container/import.html
 
-# Put parameters here that don't need to change on each machine where the app is deployed
-# https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
 parameters:
 
 services:
+    # default configuration for services in *this* file
     _defaults:
-        autowire: true
-        autoconfigure: true
-        bind:
-            $workflow: '@state_machine.content_publishing'
-            $projectDir: '%kernel.project_dir%'
-
-    App\Contract\NotificationChannelPort:
-        alias: App\Contract\Notification\NullNotificationChannel
-        public: true
-
-    App\Service\Notification\NotificationGateway:
-        arguments:
-            $channel: '@App\Contract\NotificationChannelPort'
-
-    App\Service\IdentityProviderRegistry:
-        arguments:
-            $providers: !tagged_iterator app.identity_provider
-
-    App\Service\PlatformAdapterRegistry:
-        arguments:
-            $adapters: !tagged_iterator app.platform_adapter
-
-    App\Service\Avatar\AvatarProviderInterface:
-        alias: App\Service\Avatar\ThumbsAvatarProvider
-
-    App\Service\Avatar\ThumbsAvatarProvider:
-        arguments:
-            $projectDir: '%kernel.project_dir%'
-
-    App\Service\Avatar\InitialsAvatarProvider:
-        arguments:
-            $projectDir: '%kernel.project_dir%'
-
-    App\Service\Media\MediaProviderInterface:
-        alias: App\Service\Media\DefaultMediaProvider
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
     # makes classes in src/ available to be used as services
     # this creates a service per class whose id is the fully-qualified class name
     App\:
         resource: '../src/'
         exclude:
+            - '../src/DependencyInjection/'
             - '../src/Entity/'
-            - '../src/Service/IdentityProviderRegistry.php'
-            - '../src/Service/PlatformAdapterRegistry.php'
-
-    Symfony\Component\DependencyInjection\ContainerInterface: '@service_container'
-
-    role_service:
-        alias: App\Service\RoleService
-        public: true
-
-    content_service:
-        alias: App\Service\ContentService
-        public: true
-
-    visuals_links:
-        class: ArrayObject
-        arguments:
-            - [
-                'https://i.ibb.co/mC7sv0W/01.png',
-                'https://i.ibb.co/ygqgFMV/02.png',
-                'https://i.ibb.co/1KysC55/03.png',
-                'https://i.ibb.co/64vFVfS/04.png',
-                'https://i.ibb.co/TLDzmVf/05.png',
-                'https://i.ibb.co/85LB6PW/06.png',
-                'https://i.ibb.co/fDbmdMM/07.png',
-                'https://i.ibb.co/tqMNGtX/08.png',
-                'https://i.ibb.co/xF1QQXk/09.png',
-                'https://i.ibb.co/LPYBSBX/10.png',
-                'https://i.ibb.co/Fn2HJJQ/11.png',
-                'https://i.ibb.co/TYPWsLQ/12.png'
-              ]
-        public: true
+            - '../src/Kernel.php'
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones

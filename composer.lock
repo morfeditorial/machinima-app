@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2210e6d720223164c40654c0350d2573",
+    "content-hash": "5bab0e18d0139510bfaa31f6b79b9609",
     "packages": [
         {
             "name": "dicebear/core",
@@ -1359,6 +1359,94 @@
                 }
             ],
             "time": "2021-09-28T19:18:28+00:00"
+        },
+        {
+            "name": "morfeditorial/machinima-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ChernegaSergiy/machinima-core.git",
+                "reference": "545f712213e85204c17283eaac79da1c25fdb292"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-core/zipball/545f712213e85204c17283eaac79da1c25fdb292",
+                "reference": "545f712213e85204c17283eaac79da1c25fdb292",
+                "shasum": ""
+            },
+            "require": {
+                "dicebear/core": "^10.3",
+                "dicebear/styles": "^10.2",
+                "doctrine/doctrine-bundle": "^3.2",
+                "doctrine/doctrine-migrations-bundle": "^4.0",
+                "doctrine/orm": "^3.6",
+                "ext-ctype": "*",
+                "ext-iconv": "*",
+                "php": ">=8.4",
+                "phpdocumentor/reflection-docblock": "^6.0",
+                "phpstan/phpdoc-parser": "^2.3",
+                "symfony/console": "8.1.*",
+                "symfony/framework-bundle": "8.1.*",
+                "symfony/mercure-bundle": "*",
+                "symfony/messenger": "8.1.*",
+                "symfony/notifier": "8.1.*",
+                "symfony/property-access": "8.1.*",
+                "symfony/property-info": "8.1.*",
+                "symfony/security-bundle": "8.1.*",
+                "symfony/serializer": "8.1.*",
+                "symfony/twig-bundle": "8.1.*",
+                "symfony/workflow": "8.1.*",
+                "symfony/yaml": "8.1.*",
+                "yzalis/identicon": "^3.0"
+            },
+            "conflict": {
+                "symfony/symfony": "*"
+            },
+            "replace": {
+                "symfony/polyfill-ctype": "*",
+                "symfony/polyfill-iconv": "*",
+                "symfony/polyfill-php72": "*",
+                "symfony/polyfill-php73": "*",
+                "symfony/polyfill-php74": "*",
+                "symfony/polyfill-php80": "*",
+                "symfony/polyfill-php81": "*",
+                "symfony/polyfill-php82": "*",
+                "symfony/polyfill-php83": "*",
+                "symfony/polyfill-php84": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.95",
+                "symfony/maker-bundle": "^1.67"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "extra": {
+                "symfony": {
+                    "require": "8.1.*",
+                    "allow-contrib": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Morfeditorial\\MachinimaCoreBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LicenseRef-CSSM-Unlimited-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Serhii Cherneha",
+                    "email": "chernegasergiy3@gmail.com"
+                }
+            ],
+            "description": "The Core CMS bundle for the Machinima platform.",
+            "support": {
+                "issues": "https://github.com/ChernegaSergiy/machinima-core/issues",
+                "source": "https://github.com/ChernegaSergiy/machinima-core/tree/main"
+            },
+            "time": "2026-07-14T20:15:13+00:00"
         },
         {
             "name": "morfeditorial/machinima-telegram-adapter",
@@ -8515,6 +8603,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "morfeditorial/machinima-core": 20,
         "morfeditorial/machinima-telegram-adapter": 20,
         "morfeditorial/telegram-bot-bundle": 20
     },

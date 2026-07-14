@@ -19,7 +19,6 @@
         "morfeditorial/machinima-core": "dev-main",
         "morfeditorial/machinima-telegram-adapter": "dev-main",
         "morfeditorial/telegram-bot-bundle": "dev-main",
-        "symfony/asset": "8.1.*",
         "symfony/console": "8.1.*",
         "symfony/dotenv": "8.1.*",
         "symfony/flex": "^2",

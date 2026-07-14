@@ -1366,12 +1366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-core.git",
-                "reference": "bf3733d3cfbbb537abbcbfeaf00e393051d6526a"
+                "reference": "b04314a14a7b386cf551872562e5345e955f85af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-core/zipball/bf3733d3cfbbb537abbcbfeaf00e393051d6526a",
-                "reference": "bf3733d3cfbbb537abbcbfeaf00e393051d6526a",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-core/zipball/b04314a14a7b386cf551872562e5345e955f85af",
+                "reference": "b04314a14a7b386cf551872562e5345e955f85af",
                 "shasum": ""
             },
             "require": {
@@ -1447,7 +1447,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-core/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-core/tree/main"
             },
-            "time": "2026-07-14T21:19:45+00:00"
+            "time": "2026-07-14T21:25:54+00:00"
         },
         {
             "name": "morfeditorial/machinima-telegram-adapter",

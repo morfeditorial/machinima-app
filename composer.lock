@@ -1301,13 +1301,13 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ChernegaSergiy/machinima-bot.git",
-                "reference": "ce616866ad83f1d483f9f03fd94c2203415c79ba"
+                "url": "https://github.com/morfeditorial/machinima-bot.git",
+                "reference": "0b7860f872a68f5a20fc35519d6321c73b924439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-bot/zipball/ce616866ad83f1d483f9f03fd94c2203415c79ba",
-                "reference": "ce616866ad83f1d483f9f03fd94c2203415c79ba",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-bot/zipball/0b7860f872a68f5a20fc35519d6321c73b924439",
+                "reference": "0b7860f872a68f5a20fc35519d6321c73b924439",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1324,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "Morfeditorial\\": "src/"
+                    "Morfeditorial\\MachinimaBotBundle\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1339,23 +1339,23 @@
             ],
             "description": "The official Telegram Bot for the Machinima platform.",
             "support": {
-                "issues": "https://github.com/ChernegaSergiy/machinima-bot/issues",
-                "source": "https://github.com/ChernegaSergiy/machinima-bot/tree/main"
+                "issues": "https://github.com/morfeditorial/machinima-bot/issues",
+                "source": "https://github.com/morfeditorial/machinima-bot/tree/main"
             },
-            "time": "2026-07-15T10:29:53+00:00"
+            "time": "2026-07-15T18:13:35+00:00"
         },
         {
             "name": "morfeditorial/machinima-core",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ChernegaSergiy/machinima-core.git",
-                "reference": "6fb7a2c25bc859bb125769c8d81e8a4477a29e51"
+                "url": "https://github.com/morfeditorial/machinima-core.git",
+                "reference": "fe32dd66ca16778d8b291e25cd287596f0aa40fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-core/zipball/6fb7a2c25bc859bb125769c8d81e8a4477a29e51",
-                "reference": "6fb7a2c25bc859bb125769c8d81e8a4477a29e51",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-core/zipball/fe32dd66ca16778d8b291e25cd287596f0aa40fa",
+                "reference": "fe32dd66ca16778d8b291e25cd287596f0aa40fa",
                 "shasum": ""
             },
             "require": {
@@ -1428,22 +1428,22 @@
             ],
             "description": "The Core CMS bundle for the Machinima platform.",
             "support": {
-                "issues": "https://github.com/ChernegaSergiy/machinima-core/issues",
-                "source": "https://github.com/ChernegaSergiy/machinima-core/tree/main"
+                "issues": "https://github.com/morfeditorial/machinima-core/issues",
+                "source": "https://github.com/morfeditorial/machinima-core/tree/main"
             },
-            "time": "2026-07-15T10:30:08+00:00"
+            "time": "2026-07-15T18:12:11+00:00"
         },
         {
             "name": "morfeditorial/machinima-telegram-adapter",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ChernegaSergiy/machinima-telegram-adapter.git",
+                "url": "https://github.com/morfeditorial/machinima-telegram-adapter.git",
                 "reference": "a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-telegram-adapter/zipball/a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7",
                 "reference": "a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7",
                 "shasum": ""
             },
@@ -1479,8 +1479,8 @@
             ],
             "description": "Telegram platform adapter for the Machinima core app.",
             "support": {
-                "issues": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/issues",
-                "source": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/tree/main"
+                "issues": "https://github.com/morfeditorial/machinima-telegram-adapter/issues",
+                "source": "https://github.com/morfeditorial/machinima-telegram-adapter/tree/main"
             },
             "time": "2026-07-15T10:28:09+00:00"
         },
@@ -1489,12 +1489,12 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ChernegaSergiy/telegram-bot-bundle.git",
+                "url": "https://github.com/morfeditorial/telegram-bot-bundle.git",
                 "reference": "3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/telegram-bot-bundle/zipball/3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7",
+                "url": "https://api.github.com/repos/morfeditorial/telegram-bot-bundle/zipball/3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7",
                 "reference": "3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7",
                 "shasum": ""
             },
@@ -1528,8 +1528,8 @@
             ],
             "description": "A universal Symfony Bundle for building Telegram bots with screens and commands routing.",
             "support": {
-                "issues": "https://github.com/ChernegaSergiy/telegram-bot-bundle/issues",
-                "source": "https://github.com/ChernegaSergiy/telegram-bot-bundle/tree/main"
+                "issues": "https://github.com/morfeditorial/telegram-bot-bundle/issues",
+                "source": "https://github.com/morfeditorial/telegram-bot-bundle/tree/main"
             },
             "funding": [
                 {

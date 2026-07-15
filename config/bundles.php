@@ -10,4 +10,5 @@ return [
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
     Morfeditorial\MachinimaTelegramAdapter\MachinimaTelegramAdapterBundle::class => ['all' => true],
     Morfeditorial\MachinimaCoreBundle\MachinimaCoreBundle::class => ['all' => true],
+    Morfeditorial\MachinimaBotBundle\MachinimaBotBundle::class => ['all' => true],
 ];

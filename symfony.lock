@@ -47,6 +47,9 @@
             ".php-cs-fixer.dist.php"
         ]
     },
+    "morfeditorial/machinima-bot": {
+        "version": "dev-main"
+    },
     "morfeditorial/machinima-core": {
         "version": "dev-main"
     },

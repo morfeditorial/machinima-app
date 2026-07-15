@@ -89,11 +89,11 @@ symfony server:start -d
 ```text
 machinima-app/
 +-- config/
-|   \-- profiles/       # configuration per run profile
-+-- migrations/         # Doctrine migrations
+|   \-- profiles/   # configuration per run profile
++-- migrations/     # Doctrine migrations
 +-- src/
-|   \-- Kernel.php      # Symfony Kernel
-\-- public/             # Entry point
+|   \-- Kernel.php  # Symfony Kernel
+\-- public/         # Entry point
 ```
 
 ## Contributing

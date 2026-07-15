@@ -4,7 +4,7 @@
 
 # machinima-app
 
-*Core of the Machinima platform.*
+*Host application for the Machinima platform.*
 
 [Architecture](#architecture) · [Run profiles](#run-profiles) · [Tech stack](#tech-stack) · [Installation](#installation) · [Contributing](#contributing)
 
@@ -12,15 +12,16 @@
 
 </div>
 
-This Symfony application functions seamlessly as both a regular website and an interactive Telegram Mini App. Its unique architecture ensures that the core system remains completely independent and entirely free of any hardcoded Telegram dependencies.
+This is the host skeleton application for the Machinima platform. It functions seamlessly as both a regular website and an interactive Telegram Mini App. Its unique architecture ensures that the core system remains completely independent and modular.
 
 ## Architecture
 
-The core knows nothing about specific login platforms. Everything platform-specific (Telegram, or any other) lives in separate adapters, plugged in through contracts:
+This repository (`machinima-app`) acts merely as a thin wrapper and configuration host. The actual business logic, entities, and UI templates are externalized:
 
-- **`App\Contract\PlatformAdapterInterface`** — a platform adapter: declares its own name (`getPlatformName()`), an optional JS module for zero-click bootstrap (`getBootstrapModulePath()`), an optional JS module for presentational UI hints (theme, back button — `getUiHintsModulePath()`), and the session's UI context (`getUiContext()`).
-- **`App\Contract\IdentityProviderPort`** — an identity provider: validates an assertion (an OIDC id_token, a signed initData string, etc.) and returns an `IdentityAssertion`.
-- **`App\Contract\BootstrapOnlyIdentityProvider`** — a marker for providers that are only ever used via zero-click bootstrap and must never appear as a button on `/login`.
+- **[`morfeditorial/machinima-core`](https://github.com/ChernegaSergiy/machinima-core)** — the core bundle containing the domain models, business logic, controllers, and templates. The core knows nothing about specific login platforms.
+- **`Morfeditorial\MachinimaCoreBundle\Contract\PlatformAdapterInterface`** — a platform adapter: declares its own name (`getPlatformName()`), an optional JS module for zero-click bootstrap (`getBootstrapModulePath()`), an optional JS module for presentational UI hints (theme, back button — `getUiHintsModulePath()`), and the session's UI context (`getUiContext()`).
+- **`Morfeditorial\MachinimaCoreBundle\Contract\IdentityProviderPort`** — an identity provider: validates an assertion (an OIDC id_token, a signed initData string, etc.) and returns an `IdentityAssertion`.
+- **`Morfeditorial\MachinimaCoreBundle\Contract\BootstrapOnlyIdentityProvider`** — a marker for providers that are only ever used via zero-click bootstrap and must never appear as a button on `/login`.
 
 Zero-click login (e.g. from a Telegram Mini App) goes through a single, generic `POST /api/auth/bootstrap` endpoint: the platform's bootstrap module detects its runtime in the browser on its own, builds an opaque `assertion`, and sends `{provider, assertion}` — with no custom HTTP headers or other platform-specific workarounds involved.
 
@@ -91,16 +92,8 @@ machinima-app/
 |   \-- profiles/       # configuration per run profile
 +-- migrations/         # Doctrine migrations
 +-- src/
-|   +-- Contract/       # platform-agnostic contracts (adapters, identity providers, UI context)
-|   +-- Controller/     # web + API controllers
-|   +-- Entity/         # Doctrine entities
-|   +-- Event/          # domain events (e.g. UserAuthenticatedEvent)
-|   +-- EventListener/  # event subscribers
-|   +-- Security/       # authentication/authorization
-|   +-- Service/        # adapter/provider registries and other business logic
-|   +-- Twig/           # Twig extensions/runtime
-|   \-- Kernel.php
-\-- templates/          # Twig templates
+|   \-- Kernel.php      # Symfony Kernel
+\-- public/             # Entry point
 ```
 
 ## Contributing

@@ -33,11 +33,12 @@ The application supports several profiles (`config/profiles/`) that enable a dif
 
 ## Tech stack
 
-- PHP 8.4+, Symfony 8.1
-- Doctrine ORM + PostgreSQL
-- Mercure (real-time notifications)
-- Symfony Messenger
-- Twig + Turbo (Hotwire) on the frontend
+As a host application, this repository defines the infrastructure and runtime environment:
+
+- **Runtime**: PHP 8.4+, Symfony 8.1
+- **Database**: PostgreSQL (via Doctrine)
+- **Real-time**: Mercure Hub
+- **Asynchronous Processing**: Symfony Messenger
 
 ## Installation
 

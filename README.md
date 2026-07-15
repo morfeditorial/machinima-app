@@ -6,6 +6,10 @@
 
 *Host application for the Machinima platform.*
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/morfeditorial/machinima-app.svg?label=Packagist&logo=packagist)](https://packagist.org/packages/morfeditorial/machinima-app)
+[![Total Downloads](https://img.shields.io/packagist/dt/morfeditorial/machinima-app.svg?label=Downloads&logo=packagist)](https://packagist.org/packages/morfeditorial/machinima-app)
+[![License](https://img.shields.io/packagist/l/morfeditorial/machinima-app.svg?label=Licence&logo=open-source-initiative)](https://packagist.org/packages/morfeditorial/machinima-app)
+
 [Architecture](#architecture) · [Run profiles](#run-profiles) · [Tech stack](#tech-stack) · [Installation](#installation) · [Contributing](#contributing)
 
 ---

@@ -16,16 +16,12 @@ This is the host skeleton application for the Machinima platform. It functions s
 
 ## Architecture
 
-This repository (`machinima-app`) acts merely as a thin wrapper and configuration host. The actual business logic, entities, and UI templates are externalized:
+This repository (`machinima-app`) acts merely as a thin skeleton and configuration host. It contains almost no PHP code of its own. Its primary responsibility is to wire together external, modular components using Symfony configuration and environment profiles:
 
-- **[`morfeditorial/machinima-core`](https://github.com/ChernegaSergiy/machinima-core)** — the core bundle containing the domain models, business logic, controllers, and templates. The core knows nothing about specific login platforms.
-- **`Morfeditorial\MachinimaCoreBundle\Contract\PlatformAdapterInterface`** — a platform adapter: declares its own name (`getPlatformName()`), an optional JS module for zero-click bootstrap (`getBootstrapModulePath()`), an optional JS module for presentational UI hints (theme, back button — `getUiHintsModulePath()`), and the session's UI context (`getUiContext()`).
-- **`Morfeditorial\MachinimaCoreBundle\Contract\IdentityProviderPort`** — an identity provider: validates an assertion (an OIDC id_token, a signed initData string, etc.) and returns an `IdentityAssertion`.
-- **`Morfeditorial\MachinimaCoreBundle\Contract\BootstrapOnlyIdentityProvider`** — a marker for providers that are only ever used via zero-click bootstrap and must never appear as a button on `/login`.
+- **[`morfeditorial/machinima-core`](https://github.com/ChernegaSergiy/machinima-core)** — the foundational bundle that provides the domain models, business logic, controllers, and base UI templates. The core itself is completely platform-agnostic.
+- **Platform Adapters** — separate composer packages that provide integration with external platforms (like Telegram). They implement the contracts exposed by the core bundle to register identity providers and zero-click login capabilities.
 
-Zero-click login (e.g. from a Telegram Mini App) goes through a single, generic `POST /api/auth/bootstrap` endpoint: the platform's bootstrap module detects its runtime in the browser on its own, builds an opaque `assertion`, and sends `{provider, assertion}` — with no custom HTTP headers or other platform-specific workarounds involved.
-
-Currently the only real adapter is [`machinima-telegram-adapter`](https://github.com/ChernegaSergiy/machinima-telegram-adapter), pulled in as a separate composer package.
+Currently, the primary adapter wired into this host is [`machinima-telegram-adapter`](https://github.com/ChernegaSergiy/machinima-telegram-adapter).
 
 ## Run profiles
 

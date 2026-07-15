@@ -1366,12 +1366,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-bot.git",
-                "reference": "f283b785666bf1b3aae54c7a8e027c5f123bd00f"
+                "reference": "785d1527baf09711ea4ba5401ada14c73d869519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-bot/zipball/f283b785666bf1b3aae54c7a8e027c5f123bd00f",
-                "reference": "f283b785666bf1b3aae54c7a8e027c5f123bd00f",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-bot/zipball/785d1527baf09711ea4ba5401ada14c73d869519",
+                "reference": "785d1527baf09711ea4ba5401ada14c73d869519",
                 "shasum": ""
             },
             "require": {
@@ -1406,7 +1406,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-bot/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-bot/tree/main"
             },
-            "time": "2026-07-15T07:51:11+00:00"
+            "time": "2026-07-15T09:00:07+00:00"
         },
         {
             "name": "morfeditorial/machinima-core",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cad725f4eff3cb2ab3ffe1026e629f51",
+    "content-hash": "07a6ec3fd25898609b67770bd6346321",
     "packages": [
         {
             "name": "dicebear/core",
@@ -1302,12 +1302,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-bot.git",
-                "reference": "785d1527baf09711ea4ba5401ada14c73d869519"
+                "reference": "ce616866ad83f1d483f9f03fd94c2203415c79ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-bot/zipball/785d1527baf09711ea4ba5401ada14c73d869519",
-                "reference": "785d1527baf09711ea4ba5401ada14c73d869519",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-bot/zipball/ce616866ad83f1d483f9f03fd94c2203415c79ba",
+                "reference": "ce616866ad83f1d483f9f03fd94c2203415c79ba",
                 "shasum": ""
             },
             "require": {
@@ -1342,7 +1342,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-bot/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-bot/tree/main"
             },
-            "time": "2026-07-15T09:00:07+00:00"
+            "time": "2026-07-15T10:29:53+00:00"
         },
         {
             "name": "morfeditorial/machinima-core",
@@ -1350,12 +1350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-core.git",
-                "reference": "cb9cbbee2e2de524ff47820772b3aeedb2ecc8d0"
+                "reference": "6fb7a2c25bc859bb125769c8d81e8a4477a29e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-core/zipball/cb9cbbee2e2de524ff47820772b3aeedb2ecc8d0",
-                "reference": "cb9cbbee2e2de524ff47820772b3aeedb2ecc8d0",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-core/zipball/6fb7a2c25bc859bb125769c8d81e8a4477a29e51",
+                "reference": "6fb7a2c25bc859bb125769c8d81e8a4477a29e51",
                 "shasum": ""
             },
             "require": {
@@ -1431,7 +1431,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-core/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-core/tree/main"
             },
-            "time": "2026-07-15T06:35:35+00:00"
+            "time": "2026-07-15T10:30:08+00:00"
         },
         {
             "name": "morfeditorial/machinima-telegram-adapter",
@@ -1439,12 +1439,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-telegram-adapter.git",
-                "reference": "f76d96b4afcdb36cffa0100ad6f61aba5c188eb6"
+                "reference": "a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/f76d96b4afcdb36cffa0100ad6f61aba5c188eb6",
-                "reference": "f76d96b4afcdb36cffa0100ad6f61aba5c188eb6",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7",
+                "reference": "a32ddf0ce0257dcf3b6411cfee1b62591dcacfa7",
                 "shasum": ""
             },
             "require": {
@@ -1456,6 +1456,9 @@
                 "symfony/http-client": "8.1.*",
                 "symfony/notifier": "8.1.*",
                 "symfony/telegram-notifier": "8.1.*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.95"
             },
             "default-branch": true,
             "type": "symfony-bundle",
@@ -1479,7 +1482,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/tree/main"
             },
-            "time": "2026-07-15T09:24:31+00:00"
+            "time": "2026-07-15T10:28:09+00:00"
         },
         {
             "name": "morfeditorial/telegram-bot-bundle",
@@ -7607,16 +7610,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.95.13",
+            "version": "v3.95.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "ea941114a002eb5e5876f190223deec1066c482c"
+                "reference": "3e47e5d50046f87e3244acde2fe655d1a3b72555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/ea941114a002eb5e5876f190223deec1066c482c",
-                "reference": "ea941114a002eb5e5876f190223deec1066c482c",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3e47e5d50046f87e3244acde2fe655d1a3b72555",
+                "reference": "3e47e5d50046f87e3244acde2fe655d1a3b72555",
                 "shasum": ""
             },
             "require": {
@@ -7656,7 +7659,7 @@
                 "php-coveralls/php-coveralls": "^2.9.1",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.8",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.8",
-                "phpunit/phpunit": "^9.6.35 || ^10.5.64 || ^11.5.56",
+                "phpunit/phpunit": "^9.6.35 || ^10.5.64 || ^11.5.56 || ^12.5.31",
                 "symfony/polyfill-php85": "^1.38",
                 "symfony/var-dumper": "^5.4.48 || ^6.4.36 || ^7.4.8 || ^8.1.0",
                 "symfony/yaml": "^5.4.53 || ^6.4.41 || ^7.4.13 || ^8.1.0"
@@ -7700,7 +7703,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.13"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.15"
             },
             "funding": [
                 {
@@ -7708,7 +7711,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-10T09:23:21+00:00"
+            "time": "2026-07-15T09:51:47+00:00"
         },
         {
             "name": "nikic/php-parser",

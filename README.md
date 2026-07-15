@@ -22,10 +22,10 @@ This is the host skeleton application for the Machinima platform. It functions s
 
 This repository (`machinima-app`) acts merely as a thin skeleton and configuration host. It contains almost no PHP code of its own. Its primary responsibility is to wire together external, modular components using Symfony configuration and environment profiles:
 
-- **[`morfeditorial/machinima-core`](https://github.com/ChernegaSergiy/machinima-core)** — the foundational bundle that provides the domain models, business logic, controllers, and base UI templates. The core itself is completely platform-agnostic.
+- **[`morfeditorial/machinima-core`](https://github.com/morfeditorial/machinima-core)** — the foundational bundle that provides the domain models, business logic, controllers, and base UI templates. The core itself is completely platform-agnostic.
 - **Platform Adapters** — separate composer packages that provide integration with external platforms (like Telegram). They implement the contracts exposed by the core bundle to register identity providers and zero-click login capabilities.
 
-Currently, the primary adapter wired into this host is [`machinima-telegram-adapter`](https://github.com/ChernegaSergiy/machinima-telegram-adapter).
+Currently, the primary adapter wired into this host is [`machinima-telegram-adapter`](https://github.com/morfeditorial/machinima-telegram-adapter).
 
 ## Run profiles
 

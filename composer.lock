@@ -1503,12 +1503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ChernegaSergiy/machinima-telegram-adapter.git",
-                "reference": "2e3a5b6d614dd280cf9a44b67f4dc700e952c1a2"
+                "reference": "73ae1193077a16152570aaf83728fc83a8cf3edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/2e3a5b6d614dd280cf9a44b67f4dc700e952c1a2",
-                "reference": "2e3a5b6d614dd280cf9a44b67f4dc700e952c1a2",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-telegram-adapter/zipball/73ae1193077a16152570aaf83728fc83a8cf3edc",
+                "reference": "73ae1193077a16152570aaf83728fc83a8cf3edc",
                 "shasum": ""
             },
             "require": {
@@ -1543,7 +1543,7 @@
                 "issues": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/issues",
                 "source": "https://github.com/ChernegaSergiy/machinima-telegram-adapter/tree/main"
             },
-            "time": "2026-07-15T06:35:37+00:00"
+            "time": "2026-07-15T08:10:09+00:00"
         },
         {
             "name": "morfeditorial/telegram-bot-bundle",

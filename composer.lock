@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5bab0e18d0139510bfaa31f6b79b9609",
+    "content-hash": "cad725f4eff3cb2ab3ffe1026e629f51",
     "packages": [
         {
             "name": "dicebear/core",
@@ -1359,6 +1359,54 @@
                 }
             ],
             "time": "2021-09-28T19:18:28+00:00"
+        },
+        {
+            "name": "morfeditorial/machinima-bot",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ChernegaSergiy/machinima-bot.git",
+                "reference": "f283b785666bf1b3aae54c7a8e027c5f123bd00f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ChernegaSergiy/machinima-bot/zipball/f283b785666bf1b3aae54c7a8e027c5f123bd00f",
+                "reference": "f283b785666bf1b3aae54c7a8e027c5f123bd00f",
+                "shasum": ""
+            },
+            "require": {
+                "morfeditorial/machinima-core": "dev-main",
+                "morfeditorial/telegram-bot-bundle": "dev-main",
+                "php": ">=8.2",
+                "symfony/dependency-injection": "^8.1",
+                "symfony/http-kernel": "^8.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.95"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Morfeditorial\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LicenseRef-CSSM-Unlimited-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Serhii Cherneha",
+                    "email": "chernegasergiy3@gmail.com"
+                }
+            ],
+            "description": "The official Telegram Bot for the Machinima platform.",
+            "support": {
+                "issues": "https://github.com/ChernegaSergiy/machinima-bot/issues",
+                "source": "https://github.com/ChernegaSergiy/machinima-bot/tree/main"
+            },
+            "time": "2026-07-15T07:51:11+00:00"
         },
         {
             "name": "morfeditorial/machinima-core",
@@ -8674,6 +8722,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "morfeditorial/machinima-bot": 20,
         "morfeditorial/machinima-core": 20,
         "morfeditorial/machinima-telegram-adapter": 20,
         "morfeditorial/telegram-bot-bundle": 20

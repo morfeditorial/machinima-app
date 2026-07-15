@@ -16,6 +16,7 @@
         "doctrine/doctrine-bundle": "^3.2",
         "doctrine/doctrine-migrations-bundle": "^4.0",
         "doctrine/orm": "^3.6",
+        "morfeditorial/machinima-bot": "dev-main",
         "morfeditorial/machinima-core": "dev-main",
         "morfeditorial/machinima-telegram-adapter": "dev-main",
         "morfeditorial/telegram-bot-bundle": "dev-main",

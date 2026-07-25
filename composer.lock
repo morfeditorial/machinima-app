@@ -1352,12 +1352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/morfeditorial/machinima-core.git",
-                "reference": "e91318858b6712e872e97e46b10035ac10eecfc3"
+                "reference": "9c9974121707a4c34003314e8ce44a221a972b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/morfeditorial/machinima-core/zipball/e91318858b6712e872e97e46b10035ac10eecfc3",
-                "reference": "e91318858b6712e872e97e46b10035ac10eecfc3",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-core/zipball/9c9974121707a4c34003314e8ce44a221a972b65",
+                "reference": "9c9974121707a4c34003314e8ce44a221a972b65",
                 "shasum": ""
             },
             "require": {
@@ -1432,7 +1432,7 @@
                 "issues": "https://github.com/morfeditorial/machinima-core/issues",
                 "source": "https://github.com/morfeditorial/machinima-core/tree/main"
             },
-            "time": "2026-07-25T16:30:19+00:00"
+            "time": "2026-07-25T17:16:11+00:00"
         },
         {
             "name": "morfeditorial/machinima-telegram-adapter",

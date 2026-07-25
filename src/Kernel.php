@@ -96,6 +96,13 @@ class Kernel extends BaseKernel
         if ($fileName = (new \ReflectionObject($this))->getFileName()) {
             $routes->import($fileName, 'attribute');
         }
+
+        foreach ($this->getBundles() as $bundle) {
+            $bundleRoutes = $bundle->getPath().'/config/routes.yaml';
+            if (is_file($bundleRoutes)) {
+                $routes->import($bundleRoutes);
+            }
+        }
     }
 
     /**

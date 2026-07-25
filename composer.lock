@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07a6ec3fd25898609b67770bd6346321",
+    "content-hash": "cd06ea025e32accddabb1dd1259bfe44",
     "packages": [
         {
             "name": "dicebear/core",
@@ -196,16 +196,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.4.3",
+            "version": "4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "61e730f1658814821a85f2402c945f3883407dec"
+                "reference": "fb9e0ffe15e1590e24dc61c0c0a23f9a33ee42ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/61e730f1658814821a85f2402c945f3883407dec",
-                "reference": "61e730f1658814821a85f2402c945f3883407dec",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/fb9e0ffe15e1590e24dc61c0c0a23f9a33ee42ce",
+                "reference": "fb9e0ffe15e1590e24dc61c0c0a23f9a33ee42ce",
                 "shasum": ""
             },
             "require": {
@@ -282,7 +282,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.4.3"
+                "source": "https://github.com/doctrine/dbal/tree/4.4.4"
             },
             "funding": [
                 {
@@ -298,7 +298,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-20T08:52:12+00:00"
+            "time": "2026-07-21T14:34:40+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -350,16 +350,16 @@
         },
         {
             "name": "doctrine/doctrine-bundle",
-            "version": "3.2.4",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "75f1bf75d0ba099f23e7d43ebd804df5bec58c29"
+                "reference": "9b231f957020de52d6ac94fd72f0cbe8cf1eaad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/75f1bf75d0ba099f23e7d43ebd804df5bec58c29",
-                "reference": "75f1bf75d0ba099f23e7d43ebd804df5bec58c29",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/9b231f957020de52d6ac94fd72f0cbe8cf1eaad5",
+                "reference": "9b231f957020de52d6ac94fd72f0cbe8cf1eaad5",
                 "shasum": ""
             },
             "require": {
@@ -367,6 +367,7 @@
                 "doctrine/deprecations": "^1.0",
                 "doctrine/persistence": "^4",
                 "doctrine/sql-formatter": "^1.0.1",
+                "ext-mbstring": "*",
                 "php": "^8.4",
                 "symfony/cache": "^6.4 || ^7.0 || ^8.0",
                 "symfony/config": "^6.4 || ^7.0 || ^8.0",
@@ -394,6 +395,7 @@
                 "symfony/http-kernel": "^6.4 || ^7.0 || ^8.0",
                 "symfony/messenger": "^6.4 || ^7.0 || ^8.0",
                 "symfony/property-info": "^6.4 || ^7.0 || ^8.0",
+                "symfony/runtime": "^6.4 || ^7.0 || ^8.0",
                 "symfony/security-bundle": "^6.4 || ^7.0 || ^8.0",
                 "symfony/stopwatch": "^6.4 || ^7.0 || ^8.0",
                 "symfony/string": "^6.4 || ^7.0 || ^8.0",
@@ -446,7 +448,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/DoctrineBundle/issues",
-                "source": "https://github.com/doctrine/DoctrineBundle/tree/3.2.4"
+                "source": "https://github.com/doctrine/DoctrineBundle/tree/3.3.1"
             },
             "funding": [
                 {
@@ -462,7 +464,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-09T19:11:55+00:00"
+            "time": "2026-07-23T10:37:01+00:00"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -1302,12 +1304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/morfeditorial/machinima-bot.git",
-                "reference": "0b7860f872a68f5a20fc35519d6321c73b924439"
+                "reference": "37d7accb5c23f5b3a433758bdcd5b9c2684e0ac9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/morfeditorial/machinima-bot/zipball/0b7860f872a68f5a20fc35519d6321c73b924439",
-                "reference": "0b7860f872a68f5a20fc35519d6321c73b924439",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-bot/zipball/37d7accb5c23f5b3a433758bdcd5b9c2684e0ac9",
+                "reference": "37d7accb5c23f5b3a433758bdcd5b9c2684e0ac9",
                 "shasum": ""
             },
             "require": {
@@ -1342,7 +1344,7 @@
                 "issues": "https://github.com/morfeditorial/machinima-bot/issues",
                 "source": "https://github.com/morfeditorial/machinima-bot/tree/main"
             },
-            "time": "2026-07-15T18:13:35+00:00"
+            "time": "2026-07-25T15:30:42+00:00"
         },
         {
             "name": "morfeditorial/machinima-core",
@@ -1350,12 +1352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/morfeditorial/machinima-core.git",
-                "reference": "fe32dd66ca16778d8b291e25cd287596f0aa40fa"
+                "reference": "62d97ff8fdc5acc398e9ced531d83bff7664550b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/morfeditorial/machinima-core/zipball/fe32dd66ca16778d8b291e25cd287596f0aa40fa",
-                "reference": "fe32dd66ca16778d8b291e25cd287596f0aa40fa",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-core/zipball/62d97ff8fdc5acc398e9ced531d83bff7664550b",
+                "reference": "62d97ff8fdc5acc398e9ced531d83bff7664550b",
                 "shasum": ""
             },
             "require": {
@@ -1374,7 +1376,6 @@
                 "symfony/framework-bundle": "8.1.*",
                 "symfony/mercure-bundle": "*",
                 "symfony/messenger": "8.1.*",
-                "symfony/notifier": "8.1.*",
                 "symfony/property-access": "8.1.*",
                 "symfony/property-info": "8.1.*",
                 "symfony/security-bundle": "8.1.*",
@@ -1431,7 +1432,7 @@
                 "issues": "https://github.com/morfeditorial/machinima-core/issues",
                 "source": "https://github.com/morfeditorial/machinima-core/tree/main"
             },
-            "time": "2026-07-15T18:12:11+00:00"
+            "time": "2026-07-25T15:28:51+00:00"
         },
         {
             "name": "morfeditorial/machinima-telegram-adapter",
@@ -1439,12 +1440,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/morfeditorial/machinima-telegram-adapter.git",
-                "reference": "2fa8a3e53998ac8191054d2871eea6861e2120a0"
+                "reference": "414fb15c60887a38a3bd3fa032c2d1b229588c08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/morfeditorial/machinima-telegram-adapter/zipball/2fa8a3e53998ac8191054d2871eea6861e2120a0",
-                "reference": "2fa8a3e53998ac8191054d2871eea6861e2120a0",
+                "url": "https://api.github.com/repos/morfeditorial/machinima-telegram-adapter/zipball/414fb15c60887a38a3bd3fa032c2d1b229588c08",
+                "reference": "414fb15c60887a38a3bd3fa032c2d1b229588c08",
                 "shasum": ""
             },
             "require": {
@@ -1482,7 +1483,7 @@
                 "issues": "https://github.com/morfeditorial/machinima-telegram-adapter/issues",
                 "source": "https://github.com/morfeditorial/machinima-telegram-adapter/tree/main"
             },
-            "time": "2026-07-15T21:38:29+00:00"
+            "time": "2026-07-25T15:31:38+00:00"
         },
         {
             "name": "morfeditorial/telegram-bot-bundle",
@@ -1490,12 +1491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/morfeditorial/telegram-bot-bundle.git",
-                "reference": "3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7"
+                "reference": "1367f4e4a7340d972b356a06b087215829c31c00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/morfeditorial/telegram-bot-bundle/zipball/3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7",
-                "reference": "3b246f2b5b073d6bffb63f61fe21fb39b2cdb8a7",
+                "url": "https://api.github.com/repos/morfeditorial/telegram-bot-bundle/zipball/1367f4e4a7340d972b356a06b087215829c31c00",
+                "reference": "1367f4e4a7340d972b356a06b087215829c31c00",
                 "shasum": ""
             },
             "require": {
@@ -1541,7 +1542,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-07-05T21:04:34+00:00"
+            "time": "2026-07-25T15:34:47+00:00"
         },
         {
             "name": "opis/json-schema",
@@ -7610,16 +7611,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.95.15",
+            "version": "v3.95.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "3e47e5d50046f87e3244acde2fe655d1a3b72555"
+                "reference": "0ee88422118f3cc59c8c3def222ba7f1493b6d5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3e47e5d50046f87e3244acde2fe655d1a3b72555",
-                "reference": "3e47e5d50046f87e3244acde2fe655d1a3b72555",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/0ee88422118f3cc59c8c3def222ba7f1493b6d5b",
+                "reference": "0ee88422118f3cc59c8c3def222ba7f1493b6d5b",
                 "shasum": ""
             },
             "require": {
@@ -7659,10 +7660,10 @@
                 "php-coveralls/php-coveralls": "^2.9.1",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.8",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.8",
-                "phpunit/phpunit": "^9.6.35 || ^10.5.64 || ^11.5.56 || ^12.5.31",
+                "phpunit/phpunit": "^9.6.35 || ^10.5.64 || ^11.5.56 || ^12.5.31 || ^13.0.6",
                 "symfony/polyfill-php85": "^1.38",
-                "symfony/var-dumper": "^5.4.48 || ^6.4.36 || ^7.4.8 || ^8.1.0",
-                "symfony/yaml": "^5.4.53 || ^6.4.41 || ^7.4.13 || ^8.1.0"
+                "symfony/var-dumper": "^5.4.48 || ^6.4.36 || ^7.4.8 || ^8.1.1",
+                "symfony/yaml": "^5.4.53 || ^6.4.41 || ^7.4.13 || ^8.1.1"
             },
             "suggest": {
                 "ext-dom": "For handling output formats in XML",
@@ -7703,7 +7704,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.15"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.17"
             },
             "funding": [
                 {
@@ -7711,7 +7712,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-15T09:51:47+00:00"
+            "time": "2026-07-24T13:54:39+00:00"
         },
         {
             "name": "nikic/php-parser",

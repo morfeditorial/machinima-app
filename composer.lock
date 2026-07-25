@@ -1491,12 +1491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/morfeditorial/telegram-bot-bundle.git",
-                "reference": "1367f4e4a7340d972b356a06b087215829c31c00"
+                "reference": "f41618aa2971f9639f3789c856c70f4bc6c4cc98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/morfeditorial/telegram-bot-bundle/zipball/1367f4e4a7340d972b356a06b087215829c31c00",
-                "reference": "1367f4e4a7340d972b356a06b087215829c31c00",
+                "url": "https://api.github.com/repos/morfeditorial/telegram-bot-bundle/zipball/f41618aa2971f9639f3789c856c70f4bc6c4cc98",
+                "reference": "f41618aa2971f9639f3789c856c70f4bc6c4cc98",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1542,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2026-07-25T15:34:47+00:00"
+            "time": "2026-07-25T16:42:50+00:00"
         },
         {
             "name": "opis/json-schema",

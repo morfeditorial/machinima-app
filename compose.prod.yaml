@@ -1,8 +1,6 @@
 services:
   mercure:
     command: /usr/bin/caddy run --config /etc/caddy/Caddyfile
-    ports:
-      - "3000:80"
     environment:
       SERVER_NAME: ":80"
       MERCURE_EXTRA_DIRECTIVES: |

@@ -32,8 +32,10 @@ RUN mkdir -p /app/var/cache /app/var/log /app/var/sessions \
 
 # Warm up Symfony cache
 RUN php bin/console cache:warmup --no-interaction || true
+RUN php bin/console assets:install public
 
 # Copy supervisor config
+COPY public/router.php /app/public/router.php
 COPY supervisord.conf /etc/supervisord.conf
 
 EXPOSE 8080

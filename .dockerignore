@@ -1,0 +1,17 @@
+.git
+.github
+.gitignore
+.env
+.env.local
+.env.*.local
+.php-cs-fixer.php
+.php-cs-fixer.cache
+.phpunit.result.cache
+/var/
+/vendor/
+/public/bundles/
+/public/avatars/
+/docs/
+/tests/
+*.md
+LICENSE

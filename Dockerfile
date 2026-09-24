@@ -9,9 +9,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libpq-dev \
         curl \
         libssl-dev \
+        libicu-dev \
     && docker-php-ext-install \
         pdo_pgsql \
         opcache \
+        intl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

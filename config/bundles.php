@@ -11,4 +11,5 @@ return [
     Morfeditorial\MachinimaTelegramAdapter\MachinimaTelegramAdapterBundle::class => ['all' => true],
     Morfeditorial\MachinimaCoreBundle\MachinimaCoreBundle::class => ['all' => true],
     Morfeditorial\MachinimaBotBundle\MachinimaBotBundle::class => ['all' => true],
+    Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
 ];

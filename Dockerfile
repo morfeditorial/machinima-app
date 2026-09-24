@@ -36,7 +36,7 @@ RUN mkdir -p /app/var/cache /app/var/log /app/var/sessions \
 
 # Warm up Symfony cache
 RUN php bin/console cache:warmup --no-interaction || true
-RUN TRUSTED_PROXIES=127.0.0.1 php bin/console assets:install public
+RUN TRUSTED_PROXIES=127.0.0.1 php bin/console assets:install public && chown -R www-data:www-data /app/var
 
 # Copy supervisor config
 COPY supervisord.conf /etc/supervisord.conf

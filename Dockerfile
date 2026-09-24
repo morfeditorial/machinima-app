@@ -1,8 +1,9 @@
-FROM php:8.4-cli
+FROM php:8.4-fpm
 
 # Install system dependencies and PHP extensions
 RUN apt-get update && apt-get install -y --no-install-recommends \
         supervisor \
+        nginx \
         git \
         unzip \
         libpq-dev \
@@ -19,6 +20,9 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /app
 
+# Configure Nginx
+COPY nginx.conf /etc/nginx/sites-available/default
+
 # Install PHP dependencies
 COPY composer.json composer.lock ./
 RUN composer install --no-dev --optimize-autoloader --no-interaction --no-scripts
@@ -32,10 +36,9 @@ RUN mkdir -p /app/var/cache /app/var/log /app/var/sessions \
 
 # Warm up Symfony cache
 RUN php bin/console cache:warmup --no-interaction || true
-RUN php bin/console assets:install public
+RUN TRUSTED_PROXIES=127.0.0.1 php bin/console assets:install public
 
 # Copy supervisor config
-COPY public/router.php /app/public/router.php
 COPY supervisord.conf /etc/supervisord.conf
 
 EXPOSE 8080
